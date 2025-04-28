@@ -8,66 +8,76 @@
 .robot-face-shape {
     width: 35%; 
     height: 550px; 
-    border: 2px solid white; 
+    border: 15px solid #a1d3ff; 
+    margin: 20px auto; 
     position: absolute; 
     top: 200px; 
     left: 500px; 
-    border-radius: 10px 10px 40px 40px; 
-
+    border-radius: 20px 20px 80px 80px; 
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    opacity: 0.6;
+    background-size: 100%; 
+    padding: 1px;  
+    background-repeat: no-repeat;
 
 }
 
 .robot-eye-left {
     width: 75px; 
-    height: 75px; 
-    border: 3px solid white; 
+    height: 75px;  
     position: relative; 
     left: 105px; 
     top: 90px; 
     border-radius: 50%; 
+    background-color: #44c2db; 
+    
 }
 
 .robot-eye-right {
-    width: 75px; 
-    height: 75px; 
-    border: 3px solid white; 
+    width: 15%; 
+    height: 45px;  
     position: relative; 
     left: 305px; 
     top: 18px; 
     border-radius: 50%; 
+    background: linear-gradient(45deg, red, orange);
     
     
 }
 
 .robot-ear-left {
-    width: 35px; 
-    height: 165px; 
-    border: 2px solid white;  
+    width: 2.2em; 
+    height: 165px;   
     position: relative; 
     top: 240px; 
     left: 455px; 
     border-radius: 7px 12px 40px 9px; 
+    padding: 5px; 
+    background: linear-gradient(45deg, green, #a1d3ff);
 }
 
 .robot-ear-right {
     width: 35px; 
-    height: 165px; 
-    border: 2px solid white;  
+    height: 165px;   
     position: relative; 
     top: 85px; 
     left: 1010px; 
-    border-radius: 7px 12px 40px 9px; 
+    border-radius: 7px 12px 9px 40px; 
+    padding: 5px; 
+    background: linear-gradient(45deg, green, white);
 
 }
 
 .robot-nose {
-    height: 100px; 
+    height: 100px;  
     aspect-ratio: 1;
     clip-path: polygon(50% 0,100% 50%,50% 100%,0 50%);
     background: #88A65E;
     position: relative; 
     left: 185px; 
     top: 75px; 
+    padding: 5px; 
+    background: linear-gradient(45deg, green, #e3ed58);
   }
 
 
@@ -78,7 +88,7 @@
     --n: 5; /* the number of bars */
     --g: 30%; /* control the gap */
     height: 20px;
-    width: 100px; 
+    width: 250px; 
     aspect-ratio: 1.5;
     background: #8FBE00;
     mask:
@@ -89,8 +99,10 @@
       repeating-conic-gradient(#000 0 25%,#0000 0 50%)
        0 100%/calc(200%/var(--n)) calc(200%/var(--n));
        position: relative; 
-       left: 200px; 
+       left: 130px; 
        top: 200px; 
+       padding: 5px; 
+       background: linear-gradient(45deg, red, blue);
   }
   
 
@@ -119,6 +131,7 @@
 .robot-hair-one {
     border: 2px solid white; 
     border-radius: 30px 30px 20px 10px; 
+    position: absolute; 
 }
 
 .robot-hair-two {
@@ -126,11 +139,13 @@
     width: 100px; 
     height: 25px; 
     border-radius: 10px 20px 10px 20px; 
+    position: absolute; 
 }
 
 .robot-hair-three {
     
     width: 50px; 
     height: 100px; 
+    position: absolute; 
     
 }
