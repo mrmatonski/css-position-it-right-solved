@@ -25,6 +25,7 @@
   height: 75px; 
   top: 125px; 
   border-radius: 17px; 
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     
 }
 
@@ -36,9 +37,11 @@
     height: 75px; 
     top: 125px; 
     border-radius: 17px; 
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     
     
 }
+
 
 .robot-ear-left {
   position: absolute; 
@@ -100,7 +103,7 @@
        0 0/calc(2*var(--r)) calc(2*var(--r)) round;
        position: absolute; 
        top: 100px; 
-       left: 40%; 
+       left: 36%; 
   }
     
 
@@ -113,7 +116,8 @@
     border-radius: 90px 90px 170px 190px; 
     position: absolute; 
     top: 35px; 
-    left: 65px; 
+    left: 45px; 
+    
   
 }
 

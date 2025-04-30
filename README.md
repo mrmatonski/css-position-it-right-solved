@@ -53,25 +53,25 @@ This assignment should prove that a student is able to:
 `For the Robot Face exercise:`
 
 - [x] Visit the [The shapes of CSS](https://css-tricks.com/the-shapes-of-css/) article for some shapes inspiration.
-- [ ] Edit the following files to solve that part of the assignment:
+- [x]  Edit the following files to solve that part of the assignment:
   - [ ] html: `/pages/fancy-robot.html`
-  - [ ] css: `/css/fancy-robot.css`
-- [ ] The container for the robot face (face shape) should be positioned/aligned following the rules:
-  - [ ] It should be horizontally centered to the viewport width and height.
-  - [ ] The container should not overlap the header section.
+  - [x] css: `/css/fancy-robot.css`
+- [x] The container for the robot face (face shape) should be positioned/aligned following the rules:
+  - [x] It should be horizontally centered to the viewport width and height.
+  - [x] The container should not overlap the header section.
 - [x] Style the shape of the robot face to follow the requirements:
   - [x] Should be a simple shape (square, circle, oval).
-  - [X] Should have a border of any style, color and width.
-  - [X] The face parts should NOT touch the border in their static positions.
-  - [X] The corners of the face shape should NOT be a straight (right) angle.
-- [X] Create unique random shapes for the following internal elements of the face:
-  - [X] Left eye
-  - [X] Right eye
-  - [X] Nose
-  - [X] Mouth
-  - [X] Teeth/tooth
+  - [x] Should have a border of any style, color and width.
+  - [x] The face parts should NOT touch the border in their static positions.
+  - [x] The corners of the face shape should NOT be a straight (right) angle.
+- [ ] Create unique random shapes for the following internal elements of the face:
+  - [x] Left eye
+  - [x] Right eye
+  - [x] Nose
+  - [x] Mouth
+  - [x] Teeth/tooth
   - [x] **!!!Optional** Add any other part you want.
-- [x] Create unique random shapes for the following external elements of the face:
+- [x]Create unique random shapes for the following external elements of the face:
   - [x] Hair style
   - [x] Left ear
   - [x] Right ear
@@ -102,4 +102,4 @@ This assignment should prove that a student is able to:
 - [ ] The page heading container should be "pinned" in the top right beneath the header and take the full width of the viewport, regardless of how far the user scrolls down the page content.
 - [x] The footer should be anchored to the bottom of the viewport, ensuring it remains visible even while scrolling.
 - [x] The section label should stay fixed in its parent while the user is scrolling through the current section.
-- [ ] The content should not get obscured by any of the containers at the top and bottom of the page.
+- [x] The content should not get obscured by any of the containers at the top and bottom of the page.
